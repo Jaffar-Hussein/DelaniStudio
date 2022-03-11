@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Page Pne Styling */
+
+.page-one {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    height: 100vh;
+    /* background-color: grey; */
+    background-image: url("../Assets/backgrounds/first.jpg");
+    background-size: cover;
+}
+.mouse{
+    margin-top: 30vh;
+    margin-bottom: 5vh;
+}
+.welcome{
+    font-size: xx-large;
+}
+.desc{
+    
+}
