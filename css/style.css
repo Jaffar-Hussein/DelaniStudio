@@ -24,5 +24,9 @@
     font-size: xx-large;
 }
 .desc{
-    
+
+}
+.services{
+    background-image: url('../Assets/backgrounds/s_image.jpg');
+    background-size: cover;
 }
