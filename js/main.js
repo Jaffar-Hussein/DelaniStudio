@@ -15,4 +15,7 @@ $(document).ready(function(){
         $('#products_icon').toggle();
 
     })
+    // Portfolio Page Functionality
+    $
+
 })

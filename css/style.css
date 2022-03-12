@@ -67,3 +67,6 @@
 .imgIcons {
     margin: 0.3rem;
 }
+.blurry_effect{
+    opacity: 0.4;
+}
