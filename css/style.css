@@ -16,39 +16,54 @@
     background-image: url("../Assets/backgrounds/first.jpg");
     background-size: cover;
 }
-.mouse{
+
+.mouse {
     margin-top: 30vh;
     margin-bottom: 5vh;
 }
-.welcome{
+
+.welcome {
     font-size: xx-large;
 }
-.desc{
 
-}
-.services{
+.desc {}
+
+.services {
     background-image: url('../Assets/backgrounds/s_image.jpg');
     background-size: cover;
 }
+
 .services {
     padding: 6.5rem;
 }
-#products,#development,#design{
+
+#products,
+#development,
+#design {
     display: none;
 }
-.image-product img{
+
+.image-product img {
     width: 100%;
 }
-.what-we-do{
+
+.what-we-do {
     padding: 1rem;
 }
-.bottom-page{
+
+.bottom-page {
     background-image: url('../Assets/backgrounds/c_image.jpg');
     background-size: cover;
 }
-.form-control{
+
+.form-control {
     border-radius: 0;
 }
-.form-control::placeholder{
+
+.form-control::placeholder {
     color: white;
+}
+
+.imgIcons {
+    margin: 0.3rem;
 }
