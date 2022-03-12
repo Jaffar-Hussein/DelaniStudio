@@ -30,3 +30,9 @@
     background-image: url('../Assets/backgrounds/s_image.jpg');
     background-size: cover;
 }
+.services {
+    padding: 6.5rem;
+}
+#products,#development,#design{
+    display: none;
+}
