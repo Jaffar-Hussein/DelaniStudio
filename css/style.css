@@ -39,3 +39,16 @@
 .image-product img{
     width: 100%;
 }
+.what-we-do{
+    padding: 1rem;
+}
+.bottom-page{
+    background-image: url('../Assets/backgrounds/c_image.jpg');
+    background-size: cover;
+}
+.form-control{
+    border-radius: 0;
+}
+.form-control::placeholder{
+    color: white;
+}
