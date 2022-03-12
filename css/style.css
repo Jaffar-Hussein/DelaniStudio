@@ -36,3 +36,6 @@
 #products,#development,#design{
     display: none;
 }
+.image-product img{
+    width: 100%;
+}
