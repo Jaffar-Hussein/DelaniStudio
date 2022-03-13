@@ -16,9 +16,9 @@ $(document).ready(function () {
 
     })
     // Portfolio Page Functionality
-    $('#portfolio').children().children().hover(function(){
-        $('img',this).toggleClass('blurry_effect');
-        $('p',this).toggle();
-        
+    $('#portfolio').children().children().hover(function () {
+        $('img', this).toggleClass('blurry_effect');
+        $('p', this).toggle();
+
     })
 })

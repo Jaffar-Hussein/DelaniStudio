@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto Mono', monospace;
 }
 
 /* Page Pne Styling */
@@ -25,8 +26,6 @@
 .welcome {
     font-size: xx-large;
 }
-
-.desc {}
 
 .services {
     background-image: url('../Assets/backgrounds/s_image.jpg');
@@ -60,18 +59,21 @@
 .form-control {
     border-radius: 0;
 }
+
 /* .form-control:hover:focus:focus-visible{
     outline: none !important;
     box-shadow: none !important;
     border-color: whitesmoke!important;
 } */
-.form-control:focus ,.form-control{
-    color: #212529; 
-    
+.form-control:focus,
+.form-control {
+    color: #212529;
+
     border-color: white;
-    outline: none; 
+    outline: none;
     box-shadow: none;
 }
+
 .form-control::placeholder {
     color: white;
 }
@@ -100,14 +102,15 @@
 }
 
 
-@media only screen  and (max-width:600px) {
-    .port{
+@media only screen and (max-width:600px) {
+    .port {
         margin-bottom: 1rem;
     }
 }
-@media only screen and (min-width:580px) and (max-width:1200px){
-    .port p{
+
+@media only screen and (min-width:580px) and (max-width:1200px) {
+    .port p {
         padding: 0 !important;
-        font-size:medium !important;
+        font-size: medium !important;
     }
 }
