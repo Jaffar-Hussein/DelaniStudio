@@ -93,3 +93,9 @@
         margin-bottom: 1rem;
     }
 }
+@media only screen and (min-width:580px) and (max-width:820px){
+    .port p{
+        padding: 0 !important;
+        font-size:medium !important;
+    }
+}
