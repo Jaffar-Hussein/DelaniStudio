@@ -45,6 +45,7 @@
 
 .image-product img {
     width: 100%;
+
 }
 
 .what-we-do {
@@ -67,6 +68,28 @@
 .imgIcons {
     margin: 0.3rem;
 }
-.blurry_effect{
-    opacity: 0.4;
+
+.blurry_effect {
+    /* opacity: 0.4; */
+    z-index: 1;
+    filter: blur(1px);
+}
+
+.image-product p {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 5px #f8f8ff solid;
+    font-weight: bolder;
+    z-index: 2;
+    padding: 2rem;
+    color: #f8f8ff;
+}
+
+@media only screen  and (max-width:600px) {
+    .port{
+        margin-bottom: 1rem;
+    }
 }
