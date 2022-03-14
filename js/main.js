@@ -21,4 +21,21 @@ $(document).ready(function () {
         $('p', this).toggle();
 
     })
+    // Form validation
+    $('#mc-embedded-subscribe-form').submit(function (e) {
+        e.preventDefault();
+        var fname = $('#name').val;
+        var mail = $('#email').val;
+        var message = $('#text').val;
+
+        if (fname === '') {
+            alert("Please input your name");
+            return
+        } else if (mail === '') {
+            alert('Please input your mail address');
+            return
+        } else if (message === '') {
+            alert('Please leave us a message ')
+        }
+    })
 })
