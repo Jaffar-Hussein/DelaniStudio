@@ -3,6 +3,7 @@
 ##### By Jaffar Hussein 
 
 
+<img width="1440" alt="Screenshot 2022-03-14 at 21 57 14" src="https://user-images.githubusercontent.com/57854451/158260143-b45265b0-6839-4f40-b8b4-f55c23de968e.png">
 
 
 
@@ -21,7 +22,7 @@ This is a fictional website that aims to put into use the concepts of bootstrap 
 
 The live link is below:
 
-
+## [LIVE LINK](https://jaffar-hussein.github.io/DelaniStudio/)
 
 ### Requirement
 
