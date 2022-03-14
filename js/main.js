@@ -24,9 +24,22 @@ $(document).ready(function () {
     // Form validation
     $('#mc-embedded-subscribe-form').submit(function (e) {
         e.preventDefault();
-        var fname = $('#name').val;
-        var mail = $('#email').val;
-        var message = $('#text').val;
+
+        function validateEmail(mail) {
+            let regex = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+
+            if (mail.match(regex)) {
+
+                return (true);
+            } else {
+
+                return (false);
+            }
+
+        }
+        var fname = $('#name').val();
+        var mail = $('#email').val();
+        var message = $('#text').val();
 
         if (fname === '') {
             alert("Please input your name");
@@ -34,8 +47,14 @@ $(document).ready(function () {
         } else if (mail === '') {
             alert('Please input your mail address');
             return
+        } else if (validateEmail(mail) === false) {
+            alert('Input an appropriate email');
+            return
         } else if (message === '') {
             alert('Please leave us a message ')
         }
+
+
     })
+
 })
