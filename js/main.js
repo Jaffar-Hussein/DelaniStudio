@@ -29,13 +29,10 @@ $(document).ready(function () {
             let regex = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
 
             if (mail.match(regex)) {
-
                 return (true);
             } else {
-
                 return (false);
             }
-
         }
         var fname = $('#name').val();
         var mail = $('#email').val();
